@@ -1,0 +1,4 @@
+.app__errorPage {
+    min-height: 50vh;
+    flex-direction: column;
+}

@@ -67,6 +67,10 @@
     cursor: pointer;
 }
 
+.custom__button.disable {
+  cursor: not-allowed;
+}
+
 .p__cormorant {
   font-family: var(--font-base);
   color: var(--color-white);

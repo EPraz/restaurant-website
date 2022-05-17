@@ -13,14 +13,13 @@ import {
 } from "./container";
 import { Navbar } from "./components";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 const App = () => (
   <div>
-      <ScrollToTop />
-      <Navbar />
+      {/* <ScrollToTop /> */}
+      {/* <Navbar /> */}
       <Header />
       <AboutUs />
       <SpecialMenu />

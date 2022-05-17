@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
-
+import { Link, NavLink } from 'react-router-dom';
 import images from '../../constants/images';
 import './Navbar.css';
 
 const Navbar = () => {
 
-  const [toggleMenu, setToggleMenu] = React.useState(false);
+  const [toggleMenu, setToggleMenu] = useState(false);
 
 
   return (
@@ -16,16 +16,26 @@ const Navbar = () => {
         <img src={images.gericht} alt="app logo" />
       </div>
       <ul className='app__navbar-links'>
-        <li className='p__opensans'><a href="#home">Home</a></li>
-        <li className='p__opensans'><a href="#about">about</a></li>
-        <li className='p__opensans'><a href="#menu">Menu</a></li>
-        <li className='p__opensans'><a href="#awards">Chef</a></li>
-        <li className='p__opensans'><a href="#contact">contact us</a></li>
+        <li className='p__opensans'>
+          <NavLink className={({ isActive }) => isActive ? "isActive border" : ""} to="/" >Home</NavLink>
+        </li>
+        <li className='p__opensans'>
+          <NavLink className={({ isActive }) => isActive ? "isActive border" : ""} to="/restaurant-website/about">about us</NavLink>
+        </li>
+        <li className='p__opensans'>
+          <NavLink className={({ isActive }) => isActive ? "isActive border" : ""} to="/restaurant-website/menu">Menu</NavLink>
+        </li>
+        <li className='p__opensans'>
+          <NavLink  className={({ isActive }) => isActive ? "isActive border" : ""} to="/restaurant-website/chef">Chef</NavLink>
+        </li>
+        <li className='p__opensans'>
+          <NavLink  className={({ isActive }) => isActive ? "isActive border" : ""} to="/restaurant-website/contact">contact us</NavLink>
+        </li>
       </ul>
       <div className='app__navbar-login' >
-        <a href="#login" className='p__opensans'>Log In / Register</a>
+        <Link to='' className='p__opensans disable'>Log In / Register</Link>
         <div />
-        <a href="/" className='p__opensans'>Book Table</a>
+        <Link to='' className='p__opensans disable'>Book Table</Link>
       </div>
 
       <div className='app__navbar-smallscreen'>
