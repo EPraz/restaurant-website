@@ -3,7 +3,7 @@ import { SubHeading } from '../../components';
 import { images } from '../../constants';
 const FindUs = () => {
 
-  const [mapShow, setMapShow] = React.useState(false);
+  const [mapShow, setMapShow] = React.useState(true);
 
 
   
