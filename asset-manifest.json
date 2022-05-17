@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/restaurant-website/static/css/main.d0a00d6b.css",
-    "main.js": "/restaurant-website/static/js/main.ba22c2a2.js",
+    "main.css": "/restaurant-website/static/css/main.f36af79e.css",
+    "main.js": "/restaurant-website/static/js/main.f6b0e762.js",
     "static/media/meal.mp4": "/restaurant-website/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
     "static/media/welcome.png": "/restaurant-website/static/media/welcome.43f497e0142104c84005.png",
     "static/media/findus.png": "/restaurant-website/static/media/findus.656b4b08996496486da6.png",
@@ -13,15 +13,16 @@
     "static/media/gallery03.png": "/restaurant-website/static/media/gallery03.9b746219fc87ffa20126.png",
     "static/media/gallery02.png": "/restaurant-website/static/media/gallery02.73763634449b360f8176.png",
     "static/media/gallery01.png": "/restaurant-website/static/media/gallery01.d9d5c3189a6fb02e92ec.png",
+    "static/media/map_img.jpeg": "/restaurant-website/static/media/map_img.1587a6a989f5bbef9179.jpeg",
     "static/media/knife.png": "/restaurant-website/static/media/knife.6623ab75ae4ebb170321.png",
     "static/media/overlaybg.png": "/restaurant-website/static/media/overlaybg.351d80192abfa9695a82.png",
     "index.html": "/restaurant-website/index.html",
     "static/media/spoon.svg": "/restaurant-website/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
-    "main.d0a00d6b.css.map": "/restaurant-website/static/css/main.d0a00d6b.css.map",
-    "main.ba22c2a2.js.map": "/restaurant-website/static/js/main.ba22c2a2.js.map"
+    "main.f36af79e.css.map": "/restaurant-website/static/css/main.f36af79e.css.map",
+    "main.f6b0e762.js.map": "/restaurant-website/static/js/main.f6b0e762.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0a00d6b.css",
-    "static/js/main.ba22c2a2.js"
+    "static/css/main.f36af79e.css",
+    "static/js/main.f6b0e762.js"
   ]
 }
