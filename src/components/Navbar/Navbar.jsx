@@ -17,7 +17,7 @@ const Navbar = () => {
       </div>
       <ul className='app__navbar-links'>
         <li className='p__opensans'>
-          <NavLink className={({ isActive }) => isActive ? "isActive border" : ""} to="/" >Home</NavLink>
+          <NavLink to="/restaurant-website/" >Home</NavLink>
         </li>
         <li className='p__opensans'>
           <NavLink className={({ isActive }) => isActive ? "isActive border" : ""} to="/restaurant-website/about">about us</NavLink>

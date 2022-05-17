@@ -19,7 +19,7 @@ root.render(
     <ScrollToTop />
     <Navbar /> 
     <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/restaurant-website" element={<App />} />
         <Route path="/restaurant-website/menu" element={<SpecialMenu />} />
         <Route path="/restaurant-website/contact" element={<ContactUs />} />
         <Route path="/restaurant-website/about" element={<AboutUs />} />
